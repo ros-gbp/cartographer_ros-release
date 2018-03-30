@@ -1,0 +1,13 @@
+Source: ros-lunar-cartographer-rviz
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), g++, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-lunar-cartographer, ros-lunar-cartographer-ros, ros-lunar-cartographer-ros-msgs, ros-lunar-catkin, ros-lunar-eigen-conversions, ros-lunar-message-runtime, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-rviz
+Homepage: https://github.com/googlecartographer/cartographer_ros
+Standards-Version: 3.9.2
+
+Package: ros-lunar-cartographer-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-lunar-cartographer, ros-lunar-cartographer-ros, ros-lunar-cartographer-ros-msgs, ros-lunar-eigen-conversions, ros-lunar-message-runtime, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-rviz
+Description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+ This package provides Cartographer's RViz integration.
