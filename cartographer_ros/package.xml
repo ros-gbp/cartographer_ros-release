@@ -23,19 +23,12 @@
     and mapping (SLAM) in 2D and 3D across multiple platforms and sensor
     configurations. This package provides Cartographer's ROS integration.
   </description>
-  <maintainer email="mikael@osrfoundation.org">
-    Mikael Arguedas
-  </maintainer>
-  <maintainer email="kei.okada@gmail.com">
-    Kei Okada
-  </maintainer>
-  <maintainer email="ryosuke.tajima@opensource-robotics.tokyo.jp">
-    Ryosuke Tajima
+  <maintainer email="google-cartographer@googlegroups.com">
+    The Cartographer Authors
   </maintainer>
   <license>Apache 2.0</license>
 
   <url>https://github.com/googlecartographer/cartographer_ros</url>
-  <author>The Cartographer Authors</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -66,6 +59,7 @@
   <depend>tf2_ros</depend>
   <depend>urdf</depend>
   <depend>visualization_msgs</depend>
+  <depend>yaml-cpp</depend>
 
   <test_depend>rosunit</test_depend>
 
