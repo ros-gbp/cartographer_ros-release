@@ -32,6 +32,8 @@
   <maintainer email="ryosuke.tajima@opensource-robotics.tokyo.jp">
     Ryosuke Tajima
   </maintainer>
+  <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
+
   <license>Apache 2.0</license>
 
   <url>https://github.com/googlecartographer/cartographer_ros</url>
