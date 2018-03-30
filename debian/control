@@ -1,0 +1,13 @@
+Source: ros-lunar-cartographer-ros
+Section: misc
+Priority: extra
+Maintainer: Mikael Arguedas <mikael@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), g++, google-mock, libgflags-dev, libgoogle-glog-dev, libpcl-dev, libprotobuf-dev, libprotoc-dev, protobuf-compiler, python-sphinx, ros-lunar-cartographer, ros-lunar-cartographer-ros-msgs, ros-lunar-catkin, ros-lunar-eigen-conversions, ros-lunar-geometry-msgs, ros-lunar-message-runtime, ros-lunar-nav-msgs, ros-lunar-pcl-conversions, ros-lunar-robot-state-publisher, ros-lunar-rosbag, ros-lunar-roscpp, ros-lunar-roslaunch, ros-lunar-roslib, ros-lunar-rosunit, ros-lunar-sensor-msgs, ros-lunar-std-msgs, ros-lunar-tf2, ros-lunar-tf2-eigen, ros-lunar-tf2-ros, ros-lunar-urdf, ros-lunar-visualization-msgs
+Homepage: https://github.com/googlecartographer/cartographer_ros
+Standards-Version: 3.9.2
+
+Package: ros-lunar-cartographer-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgflags-dev, libgoogle-glog-dev, libpcl-dev, ros-lunar-cartographer, ros-lunar-cartographer-ros-msgs, ros-lunar-eigen-conversions, ros-lunar-geometry-msgs, ros-lunar-message-runtime, ros-lunar-nav-msgs, ros-lunar-pcl-conversions, ros-lunar-robot-state-publisher, ros-lunar-rosbag, ros-lunar-roscpp, ros-lunar-roslaunch, ros-lunar-roslib, ros-lunar-sensor-msgs, ros-lunar-std-msgs, ros-lunar-tf2, ros-lunar-tf2-eigen, ros-lunar-tf2-ros, ros-lunar-urdf, ros-lunar-visualization-msgs
+Description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+ This package provides Cartographer's ROS integration.
