@@ -23,8 +23,8 @@
     and mapping (SLAM) in 2D and 3D across multiple platforms and sensor
     configurations. This package provides Cartographer's ROS integration.
   </description>
-  <maintainer email="mikael@osrfoundation.org">
-    Mikael Arguedas
+  <maintainer email="cartographer-owners@googlegroups.com">
+    The Cartographer Owners
   </maintainer>
   <maintainer email="kei.okada@gmail.com">
     Kei Okada

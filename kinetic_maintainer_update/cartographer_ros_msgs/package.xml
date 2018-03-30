@@ -22,8 +22,8 @@
     ROS messages for the cartographer_ros package.
   </description>
 
-  <maintainer email="mikael@osrfoundation.org">
-    Mikael Arguedas
+  <maintainer email="cartographer-owners@googlegroups.com">
+    The Cartographer Owners
   </maintainer>
   <maintainer email="kei.okada@gmail.com">
     Kei Okada
