@@ -23,6 +23,10 @@
     and mapping (SLAM) in 2D and 3D across multiple platforms and sensor
     configurations. This package provides Cartographer's RViz integration.
   </description>
+
+  <maintainer email="cartographer-owners@googlegroups.com">
+    The Cartographer Owners
+  </maintainer>
   <maintainer email="mikael@osrfoundation.org">
     Mikael Arguedas
   </maintainer>
