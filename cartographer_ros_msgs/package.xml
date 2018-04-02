@@ -22,6 +22,9 @@
     ROS messages for the cartographer_ros package.
   </description>
 
+  <maintainer email="cartographer-owners@googlegroups.com">
+    The Cartographer Owners
+  </maintainer>
   <maintainer email="mikael@osrfoundation.org">
     Mikael Arguedas
   </maintainer>
@@ -31,7 +34,6 @@
   <maintainer email="ryosuke.tajima@opensource-robotics.tokyo.jp">
     Ryosuke Tajima
   </maintainer>
-  <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
 
   <license>Apache 2.0</license>
 
