@@ -1,0 +1,13 @@
+ros-lunar-cartographer-ros (0.2.0-4xenial) xenial; urgency=high
+
+  * https://github.com/googlecartographer/cartographer/compare/0.1.0...0.2.0
+
+ -- Mikael Arguedas <mikael@osrfoundation.org>  Mon, 19 Jun 2017 07:00:00 -0000
+
+ros-lunar-cartographer-ros (0.1.0-4xenial) xenial; urgency=high
+
+  * First unstable development release
+
+ -- Mikael Arguedas <mikael@osrfoundation.org>  Thu, 18 May 2017 07:00:00 -0000
+
+
