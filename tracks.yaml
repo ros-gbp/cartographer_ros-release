@@ -39,7 +39,7 @@ tracks:
     last_version: 0.2.0
     name: upstream
     patches: lunar
-    release_inc: '3'
+    release_inc: '4'
     release_repo_url: https://github.com/ros-gbp/cartographer_ros-release.git
     release_tag: :{version}
     ros_distro: lunar
