@@ -1,0 +1,13 @@
+ros-kinetic-cartographer-ros-msgs (0.2.0-0xenial) xenial; urgency=high
+
+  * https://github.com/googlecartographer/cartographer/compare/0.1.0...0.2.0
+
+ -- The Cartographer Authors <google-cartographer@googlegroups.com>  Sun, 18 Jun 2017 15:00:00 -0000
+
+ros-kinetic-cartographer-ros-msgs (0.1.0-0xenial) xenial; urgency=high
+
+  * First unstable development release
+
+ -- The Cartographer Authors <google-cartographer@googlegroups.com>  Wed, 17 May 2017 15:00:00 -0000
+
+
