@@ -1,0 +1,12 @@
+Source: ros-kinetic-cartographer-ros-msgs
+Section: misc
+Priority: extra
+Maintainer: The Cartographer Authors <google-cartographer@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation
+Homepage: https://github.com/googlecartographer/cartographer_ros
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cartographer-ros-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs
+Description: ROS messages for the cartographer_ros package.
