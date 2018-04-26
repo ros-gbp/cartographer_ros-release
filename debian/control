@@ -1,0 +1,13 @@
+Source: ros-kinetic-cartographer-ros
+Section: misc
+Priority: extra
+Maintainer: The Cartographer Authors <google-cartographer@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), g++, google-mock, libgflags-dev, libgoogle-glog-dev, libpcl-dev, libprotobuf-dev, libprotoc-dev, libyaml-cpp-dev, protobuf-compiler, python-sphinx, ros-kinetic-cartographer, ros-kinetic-cartographer-ros-msgs, ros-kinetic-catkin, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-pcl-conversions, ros-kinetic-robot-state-publisher, ros-kinetic-rosbag, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-rosunit, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf2, ros-kinetic-tf2-eigen, ros-kinetic-tf2-ros, ros-kinetic-urdf, ros-kinetic-visualization-msgs
+Homepage: https://github.com/googlecartographer/cartographer_ros
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cartographer-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgflags-dev, libgoogle-glog-dev, libpcl-dev, libyaml-cpp-dev, ros-kinetic-cartographer, ros-kinetic-cartographer-ros-msgs, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-pcl-conversions, ros-kinetic-robot-state-publisher, ros-kinetic-rosbag, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-roslib, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf2, ros-kinetic-tf2-eigen, ros-kinetic-tf2-ros, ros-kinetic-urdf, ros-kinetic-visualization-msgs
+Description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+ This package provides Cartographer's ROS integration.
