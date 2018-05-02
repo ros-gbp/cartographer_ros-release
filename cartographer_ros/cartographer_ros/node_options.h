@@ -18,9 +18,11 @@
 #define CARTOGRAPHER_ROS_NODE_OPTIONS_H_
 
 #include <string>
+#include <tuple>
 
 #include "cartographer/common/lua_parameter_dictionary.h"
-#include "cartographer/mapping/map_builder.h"
+#include "cartographer/common/port.h"
+#include "cartographer/mapping/proto/map_builder_options.pb.h"
 #include "cartographer_ros/trajectory_options.h"
 
 namespace cartographer_ros {
@@ -28,7 +30,7 @@ namespace cartographer_ros {
 // Top-level options of Cartographer's ROS integration.
 struct NodeOptions {
   ::cartographer::mapping::proto::MapBuilderOptions map_builder_options;
-  string map_frame;
+  std::string map_frame;
   double lookup_transform_timeout_sec;
   double submap_publish_period_sec;
   double pose_publish_period_sec;
@@ -37,6 +39,10 @@ struct NodeOptions {
 
 NodeOptions CreateNodeOptions(
     ::cartographer::common::LuaParameterDictionary* lua_parameter_dictionary);
+
+std::tuple<NodeOptions, TrajectoryOptions> LoadOptions(
+    const std::string& configuration_directory,
+    const std::string& configuration_basename);
 
 }  // namespace cartographer_ros
 

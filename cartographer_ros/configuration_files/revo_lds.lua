@@ -24,13 +24,17 @@ options = {
   odom_frame = "odom",
   provide_odom_frame = true,
   use_odometry = false,
-  use_laser_scan = true,
-  use_multi_echo_laser_scan = false,
+  num_laser_scans = 1,
+  num_multi_echo_laser_scans = 0,
+  num_subdivisions_per_laser_scan = 1,
   num_point_clouds = 0,
   lookup_transform_timeout_sec = 0.2,
   submap_publish_period_sec = 0.3,
   pose_publish_period_sec = 5e-3,
   trajectory_publish_period_sec = 30e-3,
+  rangefinder_sampling_ratio = 1.,
+  odometry_sampling_ratio = 1.,
+  imu_sampling_ratio = 1.,
 }
 
 MAP_BUILDER.use_trajectory_builder_2d = true
@@ -45,8 +49,8 @@ TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.linear_search_window = 
 TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.translation_delta_cost_weight = 10.
 TRAJECTORY_BUILDER_2D.real_time_correlative_scan_matcher.rotation_delta_cost_weight = 1e-1
 
-SPARSE_POSE_GRAPH.optimization_problem.huber_scale = 1e2
-SPARSE_POSE_GRAPH.optimize_every_n_scans = 35
-SPARSE_POSE_GRAPH.constraint_builder.min_score = 0.65
+POSE_GRAPH.optimization_problem.huber_scale = 1e2
+POSE_GRAPH.optimize_every_n_nodes = 35
+POSE_GRAPH.constraint_builder.min_score = 0.65
 
 return options

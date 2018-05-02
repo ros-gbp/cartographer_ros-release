@@ -18,7 +18,6 @@
 #define CARTOGRAPHER_ROS_MSG_CONVERSION_H_
 
 #include "cartographer/common/port.h"
-#include "cartographer/kalman_filter/pose_tracker.h"
 #include "cartographer/sensor/point_cloud.h"
 #include "cartographer/transform/rigid_transform.h"
 #include "geometry_msgs/Pose.h"
@@ -35,8 +34,8 @@
 namespace cartographer_ros {
 
 sensor_msgs::PointCloud2 ToPointCloud2Message(
-    int64 timestamp, const string& frame_id,
-    const ::cartographer::sensor::PointCloud& point_cloud);
+    int64_t timestamp, const std::string& frame_id,
+    const ::cartographer::sensor::TimedPointCloud& point_cloud);
 
 geometry_msgs::Transform ToGeometryMsgTransform(
     const ::cartographer::transform::Rigid3d& rigid3d);
@@ -63,9 +62,6 @@ geometry_msgs::Point ToGeometryMsgPoint(const Eigen::Vector3d& vector3d);
 Eigen::Vector3d ToEigen(const geometry_msgs::Vector3& vector3);
 
 Eigen::Quaterniond ToEigen(const geometry_msgs::Quaternion& quaternion);
-
-::cartographer::kalman_filter::PoseCovariance ToPoseCovariance(
-    const boost::array<double, 36>& covariance);
 
 }  // namespace cartographer_ros
 

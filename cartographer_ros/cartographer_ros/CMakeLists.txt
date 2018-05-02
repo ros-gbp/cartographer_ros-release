@@ -15,6 +15,14 @@
 google_binary(cartographer_assets_writer
   SRCS
     assets_writer_main.cc
+    ros_map_writing_points_processor.h
+    ros_map_writing_points_processor.cc
+)
+
+install(TARGETS cartographer_assets_writer
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 google_binary(cartographer_node
@@ -23,12 +31,6 @@ google_binary(cartographer_node
 )
 
 install(TARGETS cartographer_node
-  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-install(TARGETS cartographer_assets_writer
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -44,3 +46,48 @@ install(TARGETS cartographer_offline_node
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+google_binary(cartographer_start_trajectory
+  SRCS
+    start_trajectory_main.cc
+)
+
+install(TARGETS cartographer_start_trajectory
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+google_binary(cartographer_occupancy_grid_node
+  SRCS
+    occupancy_grid_node_main.cc
+)
+
+install(TARGETS cartographer_occupancy_grid_node
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+google_binary(cartographer_rosbag_validate
+  SRCS
+    rosbag_validate_main.cc
+)
+
+install(TARGETS cartographer_rosbag_validate
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+google_binary(cartographer_pbstream_to_ros_map
+  SRCS
+    pbstream_to_ros_map_main.cc
+)
+
+install(TARGETS cartographer_pbstream_to_ros_map
+  ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+  RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
