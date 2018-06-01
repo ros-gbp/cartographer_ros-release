@@ -63,7 +63,7 @@ tracks:
     devel_branch: null
     last_version: 0.3.0
     name: upstream
-    patches: melodic
+    patches: null
     release_inc: '0'
     release_repo_url: https://github.com/ros-gbp/cartographer_ros-release.git
     release_tag: :{version}
