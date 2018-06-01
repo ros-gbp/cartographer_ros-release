@@ -17,18 +17,15 @@
 
 <package format="2">
   <name>cartographer_ros</name>
-  <version>0.3.0</version>
+  <version>1.0.0</version>
   <description>
     Cartographer is a system that provides real-time simultaneous localization
     and mapping (SLAM) in 2D and 3D across multiple platforms and sensor
     configurations. This package provides Cartographer's ROS integration.
   </description>
   <maintainer email="cartographer-owners@googlegroups.com">
-    The Cartographer Owners
+    The Cartographer Authors
   </maintainer>
-  <maintainer email="mikael@osrfoundation.org">Mikael Arguedas</maintainer>
-  <maintainer email="kei.okada@gmail.com">Kei Okada</maintainer>
-  <maintainer email="ryosuke.tajima@opensource-robotics.tokyo.jp">Ryosuke Tajima</maintainer>
   <license>Apache 2.0</license>
 
   <url>https://github.com/googlecartographer/cartographer_ros</url>

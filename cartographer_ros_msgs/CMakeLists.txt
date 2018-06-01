@@ -18,12 +18,17 @@ project(cartographer_ros_msgs)
 
 set(PACKAGE_DEPENDENCIES
   geometry_msgs
+  std_msgs
 )
 
 find_package(catkin REQUIRED COMPONENTS message_generation ${PACKAGE_DEPENDENCIES})
 
 add_message_files(
   FILES
+    LandmarkEntry.msg
+    LandmarkList.msg
+    StatusCode.msg
+    StatusResponse.msg
     SubmapList.msg
     SubmapEntry.msg
     SubmapTexture.msg
@@ -41,10 +46,11 @@ add_service_files(
 
 generate_messages(
   DEPENDENCIES
-    geometry_msgs
+    ${PACKAGE_DEPENDENCIES}
 )
 
 catkin_package(
   CATKIN_DEPENDS
     ${PACKAGE_DEPENDENCIES}
+    message_runtime
 )
