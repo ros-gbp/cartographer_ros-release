@@ -1,0 +1,13 @@
+Source: ros-melodic-cartographer-rviz
+Section: misc
+Priority: extra
+Maintainer: The Cartographer Authors <cartographer-owners@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), g++, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-melodic-cartographer, ros-melodic-cartographer-ros, ros-melodic-cartographer-ros-msgs, ros-melodic-catkin, ros-melodic-eigen-conversions, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rviz
+Homepage: https://github.com/googlecartographer/cartographer_ros
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cartographer-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, qtbase5-dev, ros-melodic-cartographer, ros-melodic-cartographer-ros, ros-melodic-cartographer-ros-msgs, ros-melodic-eigen-conversions, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rviz
+Description: Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+ This package provides Cartographer's RViz integration.
