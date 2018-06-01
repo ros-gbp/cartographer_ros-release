@@ -1,3 +1,29 @@
+## cartographer_ros (melodic) - 1.0.0-0
+
+The packages in the `cartographer_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cartographer_ros -r melodic -t melodic` on `Fri, 01 Jun 2018 12:29:05 -0000`
+
+These packages were released:
+- `cartographer_ros`
+- `cartographer_ros_msgs`
+- `cartographer_rviz`
+
+Version of package(s) in repository `cartographer_ros`:
+
+- upstream repository: https://github.com/googlecartographer/cartographer_ros.git
+- release repository: https://github.com/ros-gbp/cartographer_ros-release.git
+- rosdistro version: `0.3.0-0`
+- old version: `0.3.0-0`
+- new version: `1.0.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## cartographer_ros (melodic) - 0.3.0-0
 
 The packages in the `cartographer_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cartographer_ros -r melodic -t melodic` on `Wed, 02 May 2018 21:21:36 -0000`
