@@ -1,0 +1,25 @@
+ros-melodic-cartographer-ros (1.0.0-1artful) artful; urgency=high
+
+  * https://github.com/googlecartographer/cartographer_ros/compare/0.3.0...1.0.0
+
+ -- The Cartographer Authors <cartographer-owners@googlegroups.com>  Thu, 31 May 2018 22:00:00 -0000
+
+ros-melodic-cartographer-ros (0.3.0-1artful) artful; urgency=high
+
+  * https://github.com/googlecartographer/cartographer_ros/compare/0.2.0...0.3.0
+
+ -- The Cartographer Owners <cartographer-owners@googlegroups.com>  Wed, 22 Nov 2017 23:00:00 -0000
+
+ros-melodic-cartographer-ros (0.2.0-1artful) artful; urgency=high
+
+  * https://github.com/googlecartographer/cartographer_ros/compare/0.1.0...0.2.0
+
+ -- The Cartographer Owners <cartographer-owners@googlegroups.com>  Sun, 18 Jun 2017 22:00:00 -0000
+
+ros-melodic-cartographer-ros (0.1.0-1artful) artful; urgency=high
+
+  * First unstable development release
+
+ -- The Cartographer Owners <cartographer-owners@googlegroups.com>  Wed, 17 May 2017 22:00:00 -0000
+
+
